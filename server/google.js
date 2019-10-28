@@ -11,7 +11,6 @@ module.exports = {
         oAuth2Client.setCredentials(token);
         callback(oAuth2Client);
     },
-
     /**
      * Lists the names and IDs of up to 10 files.
      * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
